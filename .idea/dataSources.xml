@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="H2 - default" uuid="8535194a-5586-4deb-80ef-7e5368d0e0dd">
+    <data-source source="LOCAL" name="dev-database.db" uuid="363aadd1-14c5-4c96-8ac2-872ea68ddcbe">
       <driver-ref>h2.unified</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.h2.Driver</jdbc-driver>
-      <jdbc-url>jdbc:h2:mem:default</jdbc-url>
+      <jdbc-url>jdbc:h2:./dev-database.db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

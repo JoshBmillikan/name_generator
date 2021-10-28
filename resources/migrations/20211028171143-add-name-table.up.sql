@@ -1,0 +1,8 @@
+CREATE TABLE name (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50),
+    category_id BIGINT NOT NULL,
+    FOREIGN KEY (category_id)
+        REFERENCES CATEGORY(id)
+        ON DELETE CASCADE
+)

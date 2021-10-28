@@ -3,4 +3,3 @@ CREATE TABLE model (
     category VARCHAR(30),
     model json
 );
-

@@ -3,3 +3,7 @@
 (defn generate-name
   [modelSet]
   )
+
+(defn generate-model
+  [categoryName]
+  )
